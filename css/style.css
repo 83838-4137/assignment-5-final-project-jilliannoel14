@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.563rem;
+  color: #000;
+}
+
+header {
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  min-height: 100px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  column-gap: 51px;
+}
+
+.nav a {
+  color:#000;
+  text-decoration: none;
+  font-family: 25px;
+}
+
+.logo {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
