@@ -22,6 +22,7 @@ header {
   padding: 0 10%;
   min-height: 100px;
   width: 100%;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -40,4 +41,33 @@ nav ul {
   display: flex;
   column-gap: 10px;
   align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav a:hover {
+  color: #C0428B;
+  font-family: 'Outfit', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav a:active {
+  color: #792958;
+  font-family: 'Outfit', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #F5CC72;
+  font-size: 16px;
+  display: flex;
+  margin-top: 2907px;
+  width: 1280px;
+  height: 541px;
 }
