@@ -20,6 +20,9 @@ body {
   font-family: 'Outfit', sans-serif;
   color: #000;
   font-weight: 400;
+  width: 100%;
+  padding: 40px 800px 0px 100px;
+  height: 90px;
 }
 
 .pink {
@@ -49,6 +52,21 @@ h5 {
 
 .liveflowersblock {
   background-color: #1E7349;
+  padding: 36px 350px 46px 100px;
+}
+
+.paragraph {
+  margin-top: 10px;
+}
+
+.filterby {
+  padding: 100px 0px 0px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.filters {
+  margin-left: -650px;
 }
 
 .regularwhite {
