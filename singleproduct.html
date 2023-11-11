@@ -6,71 +6,124 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <title>Single Product</title>
 </head>
 <body>
-  <div>Use code FALL23 for FREE shipping</div>
+  <div class="code">
+    <div class="codetext"> Use code <span>FALL23</span> for FREE shipping
+    </div>
+    </div>
 
-  <img src="singleproductimages/sunfinity1.jpg">
-  <img src="singleproductimages/sunfinity2.jpg">
-  <img src="singleproductimages/sunfinity3.jpg">
-  <img src="singleproductimages/sunfinity4.jpg">
+<div class="sunfinity"> 
+    <div class="grid-item-sunfinity1">
+        <img src="singleproductimages/sunfinity1.jpg">
+      </div>
+
+      <div class="grid-container-sunfinity">
+
+      <div class="grid-item-sunfinity1">
+        <img src="singleproductimages/sunfinity2.jpg">
+      </div>
+      <div class="grid-item-sunfinity1">
+        <img src="singleproductimages/sunfinity3.jpg">
+      </div>
+      <div class="grid-item-sunfinity1">
+        <img src="singleproductimages/sunfinity4.jpg">
+      </div>
+  </div>
+</div>
 
   <h2>Sunfinity Sunflowers</h2>
-    <p>Sunflowers that are grown with care can brighten up your beloved home with a fun pop of yellow. These thrive and bloom continuously all season long and get up to between 3 to 4 feet high. They are low maintenance and drought tolerant flowers that grow in most soil conditions.</p>
+    <p class="sunfinityparagraph">Sunflowers that are grown with care can brighten up your beloved home with a fun pop of yellow. These thrive and bloom continuously all season long and get up to between 3 to 4 feet high. They are low maintenance and drought tolerant flowers that grow in most soil conditions.</p>
 
-    Select Size
-    Premium
-    $45
-    40 stem bouquet
-    Standard
-    $25
-    20 stem bouquet
+    <h4>Select Size</h4>
 
-    <div class="buttondetails">
-      <button type="submit" class="addtocartbutton">Add to Cart</button>
+  <div class="selectsize">
+    <div class="selectsize1">
+    <fieldset>
+      <input id="Yes" name="button" value="Yes" type="radio">
+      <label for="Yes">Premium</label>
+      <p>40 stem bouquet</p>
+      <p>$45</p>
+    </fieldset>
+    </div>
+
+    <div class="selectsize2">
+    <fieldset>
+      <input id="Yes" name="button" value="Yes" type="radio">
+      <label for="Yes">Standard</label>
+      <p>20 stem bouquet</p>
+      <p>$45</p>
+    </fieldset>
+  </div>
+</div>  
+
+    <div class="addtocartbutton">
+      <button type="submit" class="buttonaboutus">Add to Cart</button>
       </div> 
 
+<div class="othersbought">
   <h2>Others bought with...</h2>
-  <div class="grid-container">
+
+  <div class="grid-containerothers">
+
     <div class="grid-item">
+      <div class="grid-container5">
       <img src="singleproductimages/candle.jpg">
-        <p><button type="submit" class="button">Harvest Moon Candle</button></p>
+        <div class="Otherslink">Harvest Moon Candle</div>
+      </div>
     </div>
 
     <div class="grid-item">
+      <div class="grid-container5">
       <img src="singleproductimages/artwork.jpg">
-        <p><button type="submit" class="button">Sun Kissed Art Piece</button></p>
-    </div>
+        <div class="Otherslink">Sun Kissed Art Piece</div>
+     </div>
+   </div>
 
     <div class="grid-item">
+      <div class="grid-container5">
       <img src="singleproductimages/perfume.jpg">
-        <p><button type="submit" class="button">Lilac Love Perfume</button></p>
+        <div class="Otherslink">Lilac Love Perfume</div>
+      </div>
     </div>
   </div>
-
+</div>
 
 <div class="flowercare">
-  <h2>Flower Care Steps</h2>
-  <ul>
-    Pot Care
-    <img src="singleproductimages/water.svg">
-    <li>Water when the top 2 inches of soil are dry, 2-3 times per week.</li>
-    <img src="singleproductimages/drench-soil.svg"drench-soil></img>
-    <li>Drench the soil until water runs through the pot.</li>
-    Ground Care
-    <img src="singleproductimages/water.svg">
-    <li>Water deeply but infrequently to encourage the plant to grow deep roots with several gallons of water per plant, more often if the weather is very dry or very hot.</li>
-    <img src="singleproductimages/support.svg">
-    <li>May need support so they don’t topple under the weight of their blooms. Bamboo or other types of wood stakes work well.</li>
-    Bouquet Care
-    <img src="singleproductimages/cut.svg">
-    <li>Cut the thick stems at an angle.</li>
-    <img src="singleproductimages/vase.svg">
-    <li>Immediately place the flowers in a vase of tepid to cool water that has been prepped with a floral preservative. Tip: One teaspoon of sugar to two tablespoons of lemon juice or one tablespoon of vinegar to keep fresh.</li>
-    <img src="singleproductimages/change-water.svg">
-    <li>Change the water every other day - more often if the water turns murky. Clean the vase before refilling with new water to remove any bacteria and trim the stems.</li>
-  </ul>
+
+    <div class="flowercareheader">
+      <h2>Flower Care Steps</h2>
+    </div>
+
+  <div class="grid-container-flower-care">
+
+    <div class="grid-item-flower-care1">
+      <img src="singleproductimages/water.svg">
+      <img src="singleproductimages/drench-soil.svg">
+      <img src="singleproductimages/water.svg">
+      <img src="singleproductimages/support.svg">
+      <img src="singleproductimages/cut.svg">
+      <img src="singleproductimages/vase.svg">
+      <img src="singleproductimages/change-water.svg">
+    </div>
+
+    <div class="grid-item-flower-care2">
+      Pot Care
+      <ul>
+      <li>Water when the top 2 inches of soil are dry, 2-3 times per week.</li>
+      <li>Drench the soil until water runs through the pot.</li>
+      Ground Care
+      <li>Water deeply but infrequently to encourage the plant to grow deep roots with several gallons of water per plant, more often if the weather is very dry or very hot.</li>
+      <li>May need support so they don’t topple under the weight of their blooms. Bamboo or other types of wood stakes work well.</li>
+      Bouquet Care
+      <li>Cut the thick stems at an angle.</li>
+      <li>Immediately place the flowers in a vase of tepid to cool water that has been prepped with a floral preservative. Tip: One teaspoon of sugar to two tablespoons of lemon juice or one tablespoon of vinegar to keep fresh.</li>
+      <li>Change the water every other day - more often if the water turns murky. Clean the vase before refilling with new water to remove any bacteria and trim the stems.</li>
+    </ul>
+  </div>
+</div>
 </div>
 </body>
 </html>
