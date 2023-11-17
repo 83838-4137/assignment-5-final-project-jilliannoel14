@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   <title>Single Product</title>
 </head>
@@ -14,57 +15,81 @@
     <div class="codetext"> Use code <span>FALL23</span> for FREE shipping</div>
   </div>
 
-<div class="sunfinity"> 
-    <div class="grid-item-sunfinity1">
-        <img src="singleproductimages/sunfinity1.jpg">
+  <body>
+    <header class="header">
+      <h1 class="logo">
+       <a href="#"><img src="logo.svg" alt="logo"class="logo__img"></a>
+      </h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+    <script src="js/script.js"></script>
+    
+
+ <div class="whole">
+  <div class="block">
+    <div class="sunfinity"> 
+        <div class="grid-item-sunfinity1">
+            <img src="singleproductimages/sunfinity1.jpg">
+        </div>
+
+          <div class="grid-container-sunfinity">
+
+          <div class="grid-item-sunfinity1">
+            <img src="singleproductimages/sunfinity2.jpg">
+          </div>
+          <div class="grid-item-sunfinity1">
+            <img src="singleproductimages/sunfinity3.jpg">
+          </div>
+          <div class="grid-item-sunfinity1">
+            <img src="singleproductimages/sunfinity4.jpg">
+          </div>
+      </div>
     </div>
-
-      <div class="grid-container-sunfinity">
-
-      <div class="grid-item-sunfinity1">
-        <img src="singleproductimages/sunfinity2.jpg">
-      </div>
-      <div class="grid-item-sunfinity1">
-        <img src="singleproductimages/sunfinity3.jpg">
-      </div>
-      <div class="grid-item-sunfinity1">
-        <img src="singleproductimages/sunfinity4.jpg">
-      </div>
   </div>
-</div>
 
   <div class="sunfinityflowersbox">
   <h3>Sunfinity Sunflowers</h3>
     <p class="sunfinityparagraph">Sunflowers that are grown with care can brighten up your beloved home with a fun pop of yellow. These thrive and bloom continuously all season long and get up to between 3 to 4 feet high. They are low maintenance and drought tolerant flowers that grow in most soil conditions.</p>
-    </div>
+ 
 
-    <h4>Select Size</h4>
-    <div class="selectsize">
-      <div class="selectsize1">
-        <fieldset>
-          <input id="Yes" name="button" value="Yes" type="radio">
-          <label for="Yes">Premium</label>
-          <p>40 stem bouquet</p>
-          <p>$45</p>
-        </fieldset>
-      </div>
+  <div class="order">
+      <h4>Select Size</h4>
+      <div class="selectsize">
+        <div class="selectsize1">
+          <fieldset>
+            <input id="Yes" name="button" value="Yes" type="radio">
+            <label for="Yes">Premium</label>
+            <p>$45</p>
+            <p>40 stem bouquet</p>
+          </fieldset>
+        </div>
 
-      <div class="selectsize2">
-        <fieldset>
-          <input id="Yes" name="button" value="Yes" type="radio">
-          <label for="Yes">Standard</label>
-          <p>20 stem bouquet</p>
-          <p>$45</p>
-        </fieldset>
-      </div>
-    </div>  
+        <div class="selectsize2">
+          <fieldset>
+            <input id="Yes" name="button" value="Yes" type="radio">
+            <label for="Yes">Standard</label>
+            <p>$25</p>
+            <p>20 stem bouquet</p>
+          </fieldset>
+        </div>
+      </div>  
 
-    <div class="addtocartbutton">
-      <button type="submit" class="buttonaboutus">Add to Cart</button>
-    </div> 
+      <div class="addtocartbutton">
+        <button type="submit" class="buttonaboutus">Add to Cart</button>
+      </div> 
+  </div> 
+</div>
+</div>
 
-<div class="othersbought">
-  <h2>Others bought with...</h2>
+<div class="othersboughtcontainer">
+  <div class="othersboughtwith">Others bought with...</div>
 
   <div class="grid-containerothers">
 
@@ -82,12 +107,12 @@
      </div>
    </div>
 
-    <div class="grid-item">
+    <!-- <div class="grid-item">
       <div class="grid-container5">
         <img src="singleproductimages/perfume.jpg">
         <div class="Otherslink">Lilac Love Perfume</div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -100,30 +125,112 @@
     <div class="grid-container-flower-care">
 
       <div class="grid-item-flower-care1">
-        <img src="singleproductimages/water.svg">
-        <img src="singleproductimages/drench-soil.svg">
-        <img src="singleproductimages/water.svg">
-        <img src="singleproductimages/support.svg">
-        <img src="singleproductimages/cut.svg">
-        <img src="singleproductimages/vase.svg">
-        <img src="singleproductimages/change-water.svg">
       </div>
 
       <div class="grid-item-flower-care2">
-        Pot Care
+        <p class="potcare">Pot Care</p>
         <ul>
-        <li>Water when the top 2 inches of soil are dry, 2-3 times per week.</li>
-        <li>Drench the soil until water runs through the pot.</li>
-        Ground Care
-        <li>Water deeply but infrequently to encourage the plant to grow deep roots with several gallons of water per plant, more often if the weather is very dry or very hot.</li>
-        <li>May need support so they don’t topple under the weight of their blooms. Bamboo or other types of wood stakes work well.</li>
-        Bouquet Care
-        <li>Cut the thick stems at an angle.</li>
-        <li>Immediately place the flowers in a vase of tepid to cool water that has been prepped with a floral preservative. Tip: One teaspoon of sugar to two tablespoons of lemon juice or one tablespoon of vinegar to keep fresh.</li>
-        <li>Change the water every other day - more often if the water turns murky. Clean the vase before refilling with new water to remove any bacteria and trim the stems.</li>
+        <li> 
+          <div class="flowercarecontainer">
+            <img src="singleproductimages/water.svg">
+            <div class="one">Water when the top 2 inches of soil are dry, 2-3 times per week.</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="flowercarecontainer">
+            <img src="singleproductimages/drench-soil.svg">
+            <div class="two">Drench the soil until water runs through the pot.</div>
+          </div>
+        </li>
+
+        <p class="potcare2">Ground Care</p>
+
+        <li>
+          <div class="flowercarecontainer">
+            <img src="singleproductimages/water.svg">
+            <div class="one">Water deeply but infrequently to encourage the plant to grow deep roots with several gallons of water per plant, more often if the weather is very dry or very hot.</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="flowercarecontainer">
+            <img src="singleproductimages/support.svg">
+            <div class="two">May need support so they don’t topple under the weight of their blooms. Bamboo or other types of wood stakes work well.</div>
+          </div>
+        </li>
+
+        <p class="potcare2">Bouquet Care</p>
+
+        <li>
+          <div class="flowercarecontainer">
+            <img src="singleproductimages/cut.svg">
+            <div class="one">Cut the thick stems at an angle.</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="flowercarecontainer">
+            <img src="singleproductimages/vase.svg">
+            <div class="two">Immediately place the flowers in a vase of tepid to cool water that has been prepped with a floral preservative. Tip: One teaspoon of sugar to two tablespoons of lemon juice or one tablespoon of vinegar to keep fresh.</div>
+          </div>
+        </li>
+
+        <li>
+          <div class="flowercarecontainer">
+            <img src="singleproductimages/change-water.svg">
+            <div class="two">Change the water every other day - more often if the water turns murky. Clean the vase before refilling with new water to remove any bacteria and trim the stems.</div>
+          </div>
+        </li>
         </ul>
       </div>
     </div>
   </div>
+
+  <footer>
+    <div class="footer">
+      <div class="footlists">
+        <div class="column1footer">
+            <ul>
+              <li> <a class="footlinks" href="#"><span>Reblooms</span></a></li>
+              <li> <a class="footlinks" href="#">Shop</a></li>
+              <li> <a class="footlinks" href="#">About</a></li>
+              <li> <a class="footlinks" href="#">My Profile</a></li>
+              <li> <a class="footlinks" href="#">My Cart</a></li>
+          </ul>
+        </div>
+        <div class="column2footer">
+          <ul>
+            <li> <a class="footlinks" href="#"><span>Locations</span></a></li>
+            <li> <a class="footlinks" href="#">Jacksonville</a></li>
+            <li> <a class="footlinks" href="#"> San Diego</a></li>
+            <li> <a class="footlinks" href="#">Seattle</a></li>
+            <li> <a class="footlinks" href="#">New York</a></li>
+            <li> <a class="footlinks" href="#">Nashville</a></li>
+          </ul>
+        </div>
+        <div class="column3footer">
+          <ul>
+            <li> <a class="footlinks" href="#"><span>Help</span></a></li>
+            <li> <a class="footlinks" href="#">Questions</a></li>
+            <li> <a class="footlinks" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </ul>
+      </div>
+      <div class="contact">
+        <div class="icons">
+          <img src="footerimages/tiktok.svg" alt="tiktoklogo" class="socialmedia">
+          <img src="footerimages/pinterest.svg" alt="pinterestlogo" class="socialmedia">
+          <img src="footerimages/twitter.svg" alt="twitterlogo" class="socialmedia">
+          <img src="footerimages/facebook.svg" alt="facebooklogo" class="socialmedia">
+          <img src="footerimages/instagram.svg" alt="instaramlogo" class="socialmedia">
+        </div>
+        <hr>
+            <div class="copyright"><p>Copyright © 2023 Reblooms, Inc. All rights reserved</p></div> 
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
