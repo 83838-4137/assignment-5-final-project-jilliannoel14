@@ -77,6 +77,12 @@ h5 {
   margin-right: 128px
 } 
 
+.arrows {
+  display: flex;
+  flex-direction: row;
+  gap: 100%;
+}
+
 .shopfallseasoncontent {
   background-color: #1E7349;
   display: flex;
@@ -442,6 +448,12 @@ padding: 200px 150px;
   background-color: #1E7349;
   width: 433px;
   padding: 23px 18px 23px 18px;
+}
+
+.yellowarrows {
+  display: flex;
+  flex-direction: row;
+  gap: 100%;
 }
 
 fieldset {
