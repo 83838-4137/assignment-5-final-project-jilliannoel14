@@ -54,6 +54,11 @@ h5 {
   color: #000;
 }
 
+.mainconatiner {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+}
+
 /* Home Page */
 .grid-containerhome {
   display: grid;
@@ -185,10 +190,6 @@ h5 {
   align-items: center;
 }
 
-/* .filters {
-  margin-left: -650px;
-} */
-
 .grid-containerproducts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -196,10 +197,6 @@ h5 {
   margin: 36px 24px 81px;
   row-gap: 64px;
 }
-
-/* .h {
-  height:10%
-} */
 
 .pink {
   color: #C0428B;
@@ -290,7 +287,6 @@ select {
 
 .button3:hover {
   text-decoration: underline;
-  /* text-decoration-thickness: 2px; */
 }
 
 .buttondetails2 {
@@ -327,8 +323,7 @@ padding: 200px 150px;
 }
 
 .gridcontainer-who-we-are-block {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+  display: flex;
   margin-top: 111px;
   background-color: #1E7349;
 }
@@ -376,7 +371,6 @@ padding: 200px 150px;
 .grid-container-sunfinity {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* margin: 10px 118px 0px 0px; */
   margin-top: 51px;
 }
 
@@ -425,13 +419,11 @@ padding: 200px 150px;
 
 .block {
   display: grid;
-  /* grid-template-columns: 1fr 1.47fr; */
   margin: 0px 0px 0px 128px;
 }
 
 .selectsize {
   display: grid;
-  /* grid-template-rows: 1fr 1fr; */
   gap: 10%;
   margin-top: 15px;
 }
@@ -463,8 +455,12 @@ fieldset {
 }
 
 input[type=radio] {
-  display: none;
+  opacity: 100;
   }
+
+.selectedbouquet {
+  border: 2px solid #000;
+}  
 
 .othersboughtwith {
   color: #000;
@@ -493,12 +489,22 @@ margin-top: 86px;
 margin-left: 124px;
 }
 
-.one {
+/* .one {
   margin-top: 40px;
 }
 
 .two {
   margin-top: 77px;
+} */
+
+.flowersteps {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.aboutusimages {
+  height: 100%;
 }
 
 .flowercarecontainer {
