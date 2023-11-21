@@ -60,11 +60,11 @@ h5 {
 }
 
 /* Home Page */
-.grid-containerhome {
+/* .grid-containerhome {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 56px;
-}
+} */
 
 .mission {
   padding: 80px;
@@ -120,10 +120,6 @@ h5 {
   margin-top: 105px;
 }
 
-
-.fallseasonblock {
-}
-
 .buttonshop {
   width: 129px;
   background:#C0428B;
@@ -175,6 +171,46 @@ h5 {
   bottom: 6px;
   right: 0;
   padding: 15px 30px;
+}
+
+.carouselArrows {
+  cursor: pointer;
+  background: none;
+  position: absolute;
+  top: 80%;
+  font-size: 3rem;
+  border: none;
+}
+
+.previous {
+  left: 0px
+}
+
+.next {
+  right: 0px;
+}
+
+/* Carousel Homepage */
+.cards {
+  list-style: none;
+  /* padding: 0 16px; */
+  margin: 0;
+  display: flex;
+  gap: 53px;
+  overflow: hidden;
+}
+
+.carousel {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+}
+
+.slide {
+  display: flex;
+  flex: 0 0 454px;
+
 }
 
 /* Products Page */
