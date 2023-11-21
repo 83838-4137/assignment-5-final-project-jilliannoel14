@@ -90,9 +90,9 @@ h5 {
 
 .shopfallseasoncontent {
   background-color: #1E7349;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0 auto; */
   padding: 46px 128.5px;
 }
 
@@ -180,6 +180,9 @@ h5 {
   top: 80%;
   font-size: 3rem;
   border: none;
+  margin-right: 24px;
+  margin-left: 24px;
+  z-index: 1;
 }
 
 .previous {
