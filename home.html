@@ -17,12 +17,12 @@
 
   <header class="header">
     <h1 class="logo">
-     <a href="#"><img src="logo.svg" alt="logo"class="logo__img"></a>
+     <a href="#"><img src="logo.svg" alt="logo" class="logo__img"></a>
     </h1>
     <nav class="nav">
       <ul>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#"><a href="shop.html">Shop</a></a></li>
+        <li><a href="#"><a href="aboutus.html">About</a></a></li>
         <li><a href="#">My Account</a></li>
         <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
       </ul>
@@ -149,8 +149,8 @@
         <div class="column1footer">
             <ul>
               <li> <a class="footlinks" href="#"><span>Reblooms</span></a></li>
-              <li> <a class="footlinks" href="#">Shop</a></li>
-              <li> <a class="footlinks" href="#">About</a></li>
+              <li> <a class="footlinks" href="#"><a href="shop.html" class="clickable">Shop</a></a></li>
+              <li> <a class="footlinks" href="#"><a href="aboutus.html" class="clickable">About</a></a></li>
               <li> <a class="footlinks" href="#">My Profile</a></li>
               <li> <a class="footlinks" href="#">My Cart</a></li>
           </ul>
@@ -187,5 +187,48 @@
       </div>
     </div>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    var previousButton, nextButton;
+    var carouselContainer, cards;
+    var leftSlideIndex = 0;
+
+    window.addEvenListener('DOMContentLoaded', function(e) {
+      previousButton = document.querySelector('.previous');
+      nextButton = document.querySelector('.next');
+      carouselContainer = document.querySelector('.tiles');
+      cards = document.querySelector('.slide')
+
+      previousButton.addEventListener('click',previousSlide);
+      nextButton.addEventListener('click', nextSlide);
+
+
+    });
+
+    function previousSlide() {
+      if (leftSlideIndex > 0) {
+        goToSlide(LeftSlideIndex - 1);
+      } else {
+        goToSlide(cards.length - 1);
+      }
+    }
+
+    function nextSlide() {
+      if (LeftSlideIndex < cards.length - 1) {
+        goToSlide(leftSlideIndex + 1);
+      } else {
+        goToSlide(0);
+      }
+    }
+
+    function goToSlide(nextLeftSlideIndex) {
+      $(carouselContainer).animate({
+        scrollLeft: carouselContainer.offsetWidth / 3 * nextLeftSlideIndex },
+        {
+          duration: 200 });
+
+    leftSlideIndex = nextLeftSlideIndex; 
+        }
+  </script>
 </body>
 </html>

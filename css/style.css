@@ -105,6 +105,12 @@ nav ul {
   font-weight: 400;
 }
 
+.nav a:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
 /* Home Page */
 .mission {
   padding: 80px;
@@ -175,6 +181,17 @@ nav ul {
   background-color: #98366F;
 }
 
+.buttonshop:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+
+.buttonshop:visited {
+  background-color: #792958;
+}
+
 .buttonaboutus {
   width: 129px;
   background:#C0428B;
@@ -192,6 +209,12 @@ nav ul {
 
 .buttonaboutus:hover {
   background-color: #98366F;
+}
+
+.buttonaboutus:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
 }
 
 .code {
@@ -267,6 +290,16 @@ nav ul {
   align-items: center;
 }
 
+.filters {
+  cursor: pointer;
+}
+
+.filters:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
 .grid-containerproducts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -336,6 +369,24 @@ select {
   justify-content: center;
 }
 
+.dropdownarrow {
+  position: absolute;
+  margin-left: 198px;
+  margin-top: 6px;
+} 
+
+.dropdownarrow2 {
+  position: absolute;
+  margin-left: 477px;
+  margin-top: 6px;
+} 
+
+.dropdownarrow3 {
+  position: absolute;
+  margin-left: 755px;
+  margin-top: 6px;
+} 
+
 .button2 {
   background:#C0428B;
   color: #FFFFFF;
@@ -351,6 +402,12 @@ select {
   text-decoration: underline;
 }
 
+.button2:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
 .button3 {
   background:#C0428B;
   color: #FFFFFF;
@@ -364,6 +421,12 @@ select {
 
 .button3:hover {
   text-decoration: underline;
+}
+
+.button3:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
 }
 
 .buttondetails2 {
@@ -483,6 +546,22 @@ padding: 200px 150px;
   margin: 43px 0px 0px 0px;
 }
 
+.clickable {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.clickable:hover {
+  color: #C0428B;
+}
+
+.clickable:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
 .sunfinityflowersbox {
   margin: 0px 124px 0px 42px;
 }
@@ -493,6 +572,12 @@ padding: 200px 150px;
 
 .productlink {
   text-decoration: none;
+}
+
+.productlink:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
 }
 
 .whole {
@@ -597,6 +682,12 @@ label {
   z-index: 1;
   margin-left: 14px;
   margin-right: 14px;
+}
+
+.carouselArrows1:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
 }
 
 .previous1 {
@@ -733,6 +824,12 @@ a.footlinks:hover {
   color:#C0428B;
   text-decoration: none;
   font-family: 16px;
+}
+
+a.footlinks:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
 }
 
 footer ul {
