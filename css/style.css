@@ -221,19 +221,23 @@ nav ul {
   background-color: #F5CC72;
   padding: 40px 124px 18px;
 }
-
+/* 
 .grid-container3 {
   position: relative;
-}
+} */
 
 .Shoplinks {
   position: absolute;
   color: white;
   background-color: rgba(192, 66, 139, 0.8);
   left: 0;
-  bottom: 6px;
+  bottom: 0px;
   right: 0;
   padding: 15px 30px;
+}
+
+.Shoplinks:hover {
+  background-color:rgba(152, 54, 111, 0.8);
 }
 
 .carouselArrows {
@@ -321,6 +325,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
   }
 
 select {
@@ -463,7 +468,7 @@ padding: 200px 150px;
 }
 
 .gridcontainer-who-we-are-block {
-  display: flex;
+  /* display: flex; */
   margin-top: 111px;
   background-color: #1E7349;
 }
@@ -476,6 +481,7 @@ padding: 200px 150px;
   background-color: #C0428B;
 }
 
+
 .gridfounder2 {
   color: #FFFF;
   margin-top: 73px;
@@ -483,11 +489,22 @@ padding: 200px 150px;
   margin-right: 73px;
 }
 
+.columns{
+  display: flex;
+}
+
+.griditemflowers1 {
+  display: flex;
+  flex: 1;
+
+}
+
 .griditemflowers2 {
   color: #FFFF;
-  margin-top: 73px;
-  margin-left: 88px;
-  margin-right: 73px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 73px 88px;
 }
 
 .paragraph3 {
@@ -526,6 +543,10 @@ padding: 200px 150px;
     bottom: 8px;
     right: 0;
     padding: 15px 30px;
+}
+
+.Otherslink:hover {
+  background-color:rgba(152, 54, 111, 0.8);
 }
 
 .buttonaboutus {
@@ -603,8 +624,8 @@ padding: 200px 150px;
   width: 433px;
   padding: 23px 18px 23px 18px;
   margin: 1.25rem 0.125rem;
-  display: grid;
-  grid-template-columns: 9fr 1fr;
+  /* display: grid;
+  grid-template-columns: 9fr 1fr; */
 }
 
 input[type=radio] {
@@ -753,6 +774,10 @@ margin-bottom: 41px;
 
 .flowercare {
   background-color: #1E7349;
+  /* padding: 75px 128px 3px 128px; */
+}
+
+.flowercaretest {
   padding: 75px 128px 3px 128px;
 }
 
