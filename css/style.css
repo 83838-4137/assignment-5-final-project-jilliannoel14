@@ -490,9 +490,17 @@ padding: 200px 150px;
   color: #C0428B;
 }
 
-.heart {
-  fill: none;
-  border: #C0428B;
+label.heart {
+  background:#C0428B;
+}
+
+input[type=radio]:checked + label.heart {
+  background-color: #1E7349;
+  border: 4px solid #000;
+  accent-color: #C0428B;
+  &::after {
+    border: 2px solid #000;
+  }
 }
 
 .productcolumn {
