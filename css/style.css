@@ -198,7 +198,11 @@ nav ul {
   margin: 1rem 0;
   font-size: 20px;
 }
-
+.buttonshop:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
 .buttonshop:hover {
   background-color: #98366F;
 }
@@ -209,22 +213,19 @@ nav ul {
 
 .buttonshop:active {
   background-color: #792958;
+  outline: none;
 }
 
 .buttonshop:focus:active {
   outline: none;
 }
 
-.buttonshop:focus {
-  outline-style: solid;
-  outline-color: #0047FF;
-  outline-width: 2px;
-}
-
-
-.buttonshop:visited {
+.buttonshop:focus:visited {
   background-color: #792958;
+  outline: none;
 }
+
+
 
 .buttonaboutus {
   width: 129px;
@@ -636,7 +637,7 @@ label {
   background-color: #1E7349;
 }
 
-.input[type=radio]:checked + label {
+input[type=radio]:checked + label {
   background-color: #1E7349;
   border: 2px solid #000;
   accent-color: #000;
