@@ -97,12 +97,20 @@ nav ul {
   font-weight: 400;
 }
 
+.nav a:focus:hover {
+  outline: none;
+}
+
 .nav a:active {
   color: #792958;
   font-family: 'Outfit', sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
+}
+
+.nav a:focus:active {
+  outline: none;
 }
 
 .nav a:focus {
@@ -142,10 +150,6 @@ nav ul {
   padding: 36px 128.5px;
 }
 
-.aboutusbutton {
-  padding-top: 40px;
-}
-
 .whyshophere {
   background-color: #C0428B;
   display: flex;
@@ -153,6 +157,24 @@ nav ul {
   padding: 88px 107px;
   margin-top: 100px;
   align-items: center;
+}
+
+.aboutusbutton {
+  padding-top: 40px;
+}
+
+.buttonaboutus {
+  background-color: #C0428B;
+  color: #FFFFFF;
+  width: 129px;
+  height: 53px;
+  border: none;
+  margin: 1rem 0;
+  font-size: 20px;
+}
+
+.buttonaboutus:hover {
+  background-color: #98366F;
 }
 
 .founderimage {
@@ -181,6 +203,18 @@ nav ul {
   background-color: #98366F;
 }
 
+.buttonshop:focus:hover {
+  outline: none;
+}
+
+.buttonshop:active {
+  background-color: #792958;
+}
+
+.buttonshop:focus:active {
+  outline: none;
+}
+
 .buttonshop:focus {
   outline-style: solid;
   outline-color: #0047FF;
@@ -203,12 +237,20 @@ nav ul {
   font-size: 20px;
 }
 
-.addtocartbutton {
-  margin-top: 15px;
-}
-
 .buttonaboutus:hover {
   background-color: #98366F;
+}
+
+.buttonshop:focus:hover {
+  outline: none;
+}
+
+.buttonaboutus:active {
+  background-color: #792958;
+}
+
+.buttonaboutus:focus:active {
+  outline: none;
 }
 
 .buttonaboutus:focus {
@@ -281,84 +323,6 @@ nav ul {
   flex: 0 0 454px;
 }
 
-/* Products Page */
-.liveflowersblock {
-  background-color: #1E7349;
-  padding: 36px 104px 43px 100px;
-}
-
-.filterby {
-  padding: 100px 0px 0px 30px;
-  display: grid;
-  grid-template-columns: 1fr 10fr;
-  align-items: center;
-}
-
-.filters {
-  cursor: pointer;
-}
-
-.filters:focus {
-  outline-style: solid;
-  outline-color: #0047FF;
-  outline-width: 2px;
-}
-
-.grid-containerproducts {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 42px;
-  margin: 36px 24px 81px;
-  row-gap: 64px;
-}
-
-.pink {
-  color: #C0428B;
-}
-
-.productcolumn {
-  display: grid;
-  grid-template-columns: 1fr 0fr;
-  }
-
-  .grid-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-  }
-
-select {
-  color: #FFFFFF;
-  width: 225px;
-  background-color: #C0428B;
-  border: none;
-  font-size: 1.563rem;
-  font-weight: 400;
-  margin-right: 30px;
-  padding: 10px 0px 11px 16px;
-  appearance: none;
-}
-
-.regularwhite {
-  color: #FFFFFF;
-  font-family: 'Outfit', sans-serif;
-  font-size: 1.563rem;
-  font-weight: 400;
-}
-
-.icontitles {
-  color:#FFFFFF;
-  margin-top: revert;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 60px;
-  column-gap: 160px;
-}
-
 /* Shop Page */
 .grid-container4 {
   display: grid;
@@ -405,6 +369,18 @@ select {
 
 .button2:hover {
   text-decoration: underline;
+}
+
+.button2:focus:hover {
+  outline: none
+}
+
+.button2:active {
+  background-color: #792958;
+}
+
+.button2:focus:active {
+  outline: none;
 }
 
 .button2:focus {
@@ -462,72 +438,104 @@ right: 7;
 padding: 200px 150px;
 }
 
-/* About Us */
-.grid-container-missionblock {
-  position: relative;
-}
-
-.gridcontainer-who-we-are-block {
-  /* display: flex; */
-  margin-top: 111px;
+/* Products Page */
+.liveflowersblock {
   background-color: #1E7349;
+  padding: 36px 104px 43px 100px;
 }
 
-.gridcontainer-meet-the-founder {
-  margin-top: 111px;
+.filterby {
+  padding: 100px 0px 0px 30px;
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  margin-top: 52px;
+  grid-template-columns: 1fr 10fr;
+  align-items: center;
+}
+
+.filters {
+  cursor: pointer;
+}
+
+.filters:hover {
   background-color: #C0428B;
 }
 
-
-.gridfounder2 {
-  color: #FFFF;
-  margin-top: 73px;
-  margin-left: 88px;
-  margin-right: 73px;
+/* .filters:focus:hover {
+  outline: none;
 }
 
-.columns{
-  display: flex;
+.filters:active {
+  background-color: #98366F;
+} */
+
+/* .filters:focus:active {
+  outline: none;
+} */ */
+
+.filters:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
 }
 
-.griditemflowers1 {
-  display: flex;
-  flex: 1;
-
+.grid-containerproducts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 42px;
+  margin: 36px 24px 81px;
+  row-gap: 64px;
 }
 
-.griditemflowers2 {
-  color: #FFFF;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  padding: 73px 88px;
+.pink {
+  color: #C0428B;
 }
 
-.paragraph3 {
-  margin-top: 20px;
+.heart {
+  fill: none;
+  border: #C0428B;
 }
 
-.mission2 {
-  padding: 90px 200px;
-  text-align-last: center;
-  border: solid #F5CC72;
+.productcolumn {
+  display: grid;
+  grid-template-columns: 1fr 0fr;
+  }
+
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+select {
+  color: #FFFFFF;
+  width: 225px;
+  background-color: #C0428B;
+  border: none;
+  font-size: 1.563rem;
+  font-weight: 400;
+  margin-right: 30px;
+  padding: 10px 0px 11px 16px;
+  appearance: none;
+}
+
+.regularwhite {
+  color: #FFFFFF;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+}
+
+.icontitles {
+  color:#FFFFFF;
+  margin-top: revert;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-top: 60px;
-  margin-left: 100px;
-  border-width: thick;
-  position: absolute;
-  top: 20px;
-  color: #FFFF;
-  background-color: rgba(125, 125, 125, 0.4);
+  column-gap: 160px;
 }
-
-.aboutusimages {
-  height: 100%;
-}
-
 /* Single Product Page */
 .grid-container-sunfinity {
   display: grid;
@@ -547,20 +555,6 @@ padding: 200px 150px;
 
 .Otherslink:hover {
   background-color:rgba(152, 54, 111, 0.8);
-}
-
-.buttonaboutus {
-  background-color: #C0428B;
-  color: #FFFFFF;
-  width: 129px;
-  height: 53px;
-  border: none;
-  margin: 1rem 0;
-  font-size: 20px;
-}
-
-.buttonaboutus:hover {
-  background-color: #98366F;
 }
 
 .order {
@@ -678,6 +672,10 @@ label {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 25px;
     column-gap: 25px;
+}
+
+.addtocartbutton {
+  margin-top: 15px;
 }
 
 /* Single Products Page Carousel */
@@ -814,6 +812,72 @@ margin-top: 29px;
   position: relative;
 }
 
+/* About Us */
+.grid-container-missionblock {
+  position: relative;
+}
+
+.gridcontainer-who-we-are-block {
+  /* display: flex; */
+  margin-top: 111px;
+  background-color: #1E7349;
+}
+
+.gridcontainer-meet-the-founder {
+  margin-top: 111px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 52px;
+  background-color: #C0428B;
+}
+
+
+.gridfounder2 {
+  color: #FFFF;
+  margin-top: 73px;
+  margin-left: 88px;
+  margin-right: 73px;
+}
+
+.columns{
+  display: flex;
+}
+
+.griditemflowers1 {
+  display: flex;
+  flex: 1;
+
+}
+
+.griditemflowers2 {
+  color: #FFFF;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 73px 88px;
+}
+
+.paragraph3 {
+  margin-top: 20px;
+}
+
+.mission2 {
+  padding: 90px 200px;
+  text-align-last: center;
+  border: solid #F5CC72;
+  margin-top: 60px;
+  margin-left: 100px;
+  border-width: thick;
+  position: absolute;
+  top: 20px;
+  color: #FFFF;
+  background-color: rgba(125, 125, 125, 0.4);
+}
+
+.aboutusimages {
+  height: 100%;
+}
+
 /* Footer*/
 .footlists {
   display: flex;
@@ -846,8 +910,8 @@ a.footlinks {
 }
 
 a.footlinks:hover {
-  color:#C0428B;
-  text-decoration: none;
+  color:#000;
+  text-decoration: underline;
   font-family: 16px;
 }
 
@@ -869,8 +933,13 @@ span {
 
 .socialmedia {
   padding-left: 30px;
+  fill: #000;
 }
 
+.socialmedia:hover {
+  /* background-color: #C0428B; */
+  fill: #C0428B;
+}
 
 .icons {
   display: flex;
