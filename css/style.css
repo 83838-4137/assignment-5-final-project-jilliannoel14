@@ -456,9 +456,9 @@ padding: 200px 150px;
   cursor: pointer;
 }
 
-.filters:hover {
+/* .filters:hover {
   background-color: #C0428B;
-}
+} */
 
 /* .filters:focus:hover {
   outline: none;
@@ -490,17 +490,21 @@ padding: 200px 150px;
   color: #C0428B;
 }
 
-label.heart {
-  background:#C0428B;
+/*heart checked */
+#heartcheck-svg {
+  cursor: pointer;
+  overflow: visible;
+  width: 34px;
+  margin: 31px;
 }
 
-input[type=radio]:checked + label.heart {
-  background-color: #1E7349;
-  border: 4px solid #000;
-  accent-color: #C0428B;
-  &::after {
-    border: 2px solid #000;
-  }
+.heartcheckbox {
+  display: none;
+}
+
+input[type=checkbox]:checked + label.heartchecked svg {
+  /* accent-color: #000; */
+  fill: #C0428B;
 }
 
 .productcolumn {
@@ -514,6 +518,16 @@ input[type=radio]:checked + label.heart {
     align-items: center;
     position: relative;
   }
+
+.grid-itemproduct:active:focus {
+  outline: none;
+}
+
+.grid-itemproduct:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
 
 select {
   color: #FFFFFF;
@@ -552,13 +566,13 @@ select {
   margin-top: 51px;
 }
 
-.rb {
+/* .rb {
   text-decoration: none;
 }
 
 .rb:hover {
   background-color: #792958;
-}
+} */
 
 .Otherslink {
     position: absolute;
@@ -650,10 +664,10 @@ input[type=radio] {
 label {
   height: 100%;
   display: block;
-  background-color: #1E7349;
+  /* background-color: #1E7349; */
 }
 
-input[type=radio]:checked + label {
+input[type=radio]:checked + label.selectsize2 {
   background-color: #1E7349;
   border: 4px solid #000;
   accent-color: #000;
@@ -665,6 +679,10 @@ input[type=radio]:checked + label {
 .selectedbouquet {
   border: 2px solid #000;
 }  
+
+
+/* label.selectsize2 */
+
 
 .othersboughtwith {
   color: #000;
