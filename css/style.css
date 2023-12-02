@@ -416,7 +416,7 @@ nav ul {
   color: white;
   top: 0;
   left: unset;
-  right: 7;
+  /* right: 7px; */
   padding: 200px 150px;
   }
 
@@ -435,7 +435,7 @@ position: absolute;
 color: white;
 top: 0;
 left: unset;
-right: 7;
+/* right: 7px; */
 padding: 200px 150px;
 }
 
@@ -455,22 +455,6 @@ padding: 200px 150px;
 .filters {
   cursor: pointer;
 }
-
-/* .filters:hover {
-  background-color: #C0428B;
-} */
-
-/* .filters:focus:hover {
-  outline: none;
-}
-
-.filters:active {
-  background-color: #98366F;
-} */
-
-/* .filters:focus:active {
-  outline: none;
-} */ */
 
 .filters:focus {
   outline-style: solid;
@@ -947,7 +931,7 @@ a.footlinks {
 a.footlinks:hover {
   color:#000;
   text-decoration: underline;
-  font-family: 16px;
+  font-size: 16px;
 }
 
 a.footlinks:focus {
