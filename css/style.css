@@ -166,6 +166,10 @@ nav ul {
   padding-top: 40px;
 }
 
+/* .grid-item {
+  position: absolute;
+} */
+
 .buttonaboutus {
   background-color: #C0428B;
   color: #FFFFFF;
@@ -176,7 +180,15 @@ nav ul {
   font-size: 20px;
 }
 
+.grid-container3 {
+  position: relative;
+} 
+
 .buttonaboutus:hover {
+  background-color: #98366F;
+}
+
+.buttonaboutus:focus:hover {
   background-color: #98366F;
 }
 
@@ -275,7 +287,7 @@ nav ul {
   color: white;
   background-color: rgba(192, 66, 139, 0.8);
   left: 0;
-  bottom: 0px;
+  bottom: 8px;
   right: 0;
   padding: 15px 30px;
 }
