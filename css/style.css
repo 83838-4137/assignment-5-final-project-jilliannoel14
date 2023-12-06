@@ -1,0 +1,1005 @@
+grid-container3html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.563rem;
+  color: #000;
+}
+
+.paragraph {
+  margin-top: 10px;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3.125rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color:#000;
+}
+
+h4 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.563rem;
+  font-weight: 600;
+  color: #000;
+}
+
+h5 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.563rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.mainconatiner {
+  margin: 0 auto;
+}
+
+/* Nav Bar */
+header {
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
+/* This helps split the four links in my nav by using the column-gap and display-flex. Now they are side by side and evenly spaced with no underline */
+nav ul {
+  display: flex;
+  list-style: none;
+  column-gap: 51px;
+}
+
+.nav a {
+  color:#000;
+  text-decoration: none;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* .logo {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+} */
+
+.nav a:hover {
+  color: #C0428B;
+  font-family: 'Outfit', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* This helps the focus not show when I hover */
+.nav a:focus:hover {
+  outline: none;
+}
+
+.nav a:active {
+  color: #792958;
+  font-family: 'Outfit', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav a:focus:active {
+  outline: none;
+}
+
+.nav a:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+/* Home Page */
+.mission {
+  padding: 80px;
+  text-align-last: center;
+  border: solid #F5CC72;
+  margin-top: 60px;
+  margin-left: 223px;
+  border-width: thick;
+  margin-right: 223px;
+}
+
+.founder2 {
+  margin-top: 42px;
+  margin-left: 105px;
+  margin-right: 128px
+} 
+
+/* .arrows {
+  display: flex;
+  flex-direction: row;
+  gap: 100%;
+} */
+
+.shopfallseasoncontent {
+  background-color: #1E7349;
+}
+
+.fallseasonblock {
+  padding: 36px 128.5px;
+}
+
+/* Display flex and flex-direction help put my header and body copy on top of my icons and their labels. */
+.whyshophere {
+  background-color: #C0428B;
+  display: flex;
+  flex-direction: column;
+  padding: 88px 107px;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.aboutusbutton {
+  padding-top: 40px;
+}
+
+/* .grid-item {
+  position: absolute;
+} */
+
+.buttonaboutus {
+  background-color: #C0428B;
+  color: #FFFFFF;
+  width: 129px;
+  height: 53px;
+  border: none;
+  margin: 1rem 0;
+  font-size: 20px;
+}
+
+.grid-container3 {
+  position: relative;
+} 
+
+.buttonaboutus:hover {
+  background-color: #98366F;
+}
+
+.buttonaboutus:focus:hover {
+  background-color: #98366F;
+}
+
+.founderimage {
+  height: 100%;
+}
+
+/* The display grid and grid-template-columns helps split my image and text evenly half and half in a single green container */
+.founder {
+  background-color: #1E7349;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 105px;
+}
+
+.buttonshop {
+  width: 129px;
+  background:#C0428B;
+  color: #FFFFFF;
+  width: 129px;
+  height: 53px;
+  border: none;
+  margin: 1rem 0;
+  font-size: 20px;
+}
+
+.buttonshop:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+.buttonshop:hover {
+  background-color: #98366F;
+}
+
+.buttonshop:focus:hover {
+  outline: none;
+}
+
+.buttonshop:active {
+  background-color: #792958;
+  outline: none;
+}
+
+.buttonshop:focus:active {
+  outline: none;
+}
+
+.buttonshop:focus:visited {
+  background-color: #792958;
+  outline: none;
+}
+
+.buttonaboutus {
+  width: 129px;
+  background:#C0428B;
+  color: #FFFFFF;
+  width: 129px;
+  height: 53px;
+  border: none;
+  margin: 1rem 0;
+  font-size: 20px;
+}
+
+.buttonaboutus:hover {
+  background-color: #98366F;
+}
+
+.buttonshop:focus:hover {
+  outline: none;
+}
+
+.buttonaboutus:active {
+  background-color: #792958;
+}
+
+.buttonaboutus:focus:active {
+  outline: none;
+}
+
+.buttonaboutus:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+.code {
+  background-color: #F5CC72;
+  padding: 40px 124px 18px;
+}
+
+/* The position absolute helps the pink backround on my images in the Carousel sit on top of them. 0.8 in the background-color defines how much opacity I will show so you can see my image behind this pink box. */
+.Shoplinks {
+  position: absolute;
+  color: white;
+  background-color: rgba(192, 66, 139, 0.8);
+  left: 0;
+  bottom: 8px;
+  right: 0;
+  padding: 15px 30px;
+}
+
+.Shoplinks:hover {
+  background-color:rgba(152, 54, 111, 0.8);
+}
+
+/* Similar to the last comment I made, I made the arrows position:absolute so that they sit on top of the images as you scroll through the carousel. */
+/* The  */
+.carouselArrows {
+  cursor: pointer;
+  background: none;
+  position: absolute;
+  top: 40%;
+  border: none;
+  z-index: 1;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.previous {
+  left: 0px
+}
+
+.next {
+  right: 0px;
+}
+
+/* Carousel Homepage */
+
+/* This is apart of my javascript. These contain my images inside my carousel. I hid the overflow so you can only see the three images and not have my body container expand beyond the green container box. */
+.cards {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  gap: 53px;
+  overflow: hidden;
+}
+
+/* This is also for my javascript and defines the size I want my container to be and lets the imgaes and content sit on top of it and be visible (position:relative) */
+.carousel {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 53px;
+}
+
+/* This is also apart of my javascript. It tells the carousel to "slide" or move as you click on the arrows.*/
+.slide {
+  display: flex;
+  flex: 0 0 454px;
+}
+
+/* Shop Page */
+
+/* This allows my images and button labels to be split into 2 columns and evenly spaced to match my figma high fidelity. */
+.grid-container4 {
+  display: grid;
+  padding: 50px 110px 0px 110px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 35px;
+  row-gap: 25px;
+}
+
+/* This is for each image and its button. It allows the button to sit on top of the image and keep them contained in the same area*/
+.grid-containershop {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.button2 {
+  background:#C0428B;
+  color: #FFFFFF;
+  width: 279px;
+  height: 60px;
+  border: none;
+  margin: 1rem 0;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.button2:hover {
+  text-decoration: underline;
+}
+
+.button2:focus:hover {
+  outline: none
+}
+
+.button2:active {
+  background-color: #792958;
+}
+
+.button2:focus:active {
+  outline: none;
+}
+
+.button2:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+.button3 {
+  background:#C0428B;
+  color: #FFFFFF;
+  width: 347px;
+  height: 60px;
+  border: none;
+  margin: 1rem 0;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.button3:hover {
+  text-decoration: underline;
+}
+
+.button3:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+/* This lets the buttons sit on top of the images. This one was a bit different then the other buttondetails because it's button length had to be extended to fix the long words inside of it. */
+.buttondetails2 {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: unset;
+  padding: 200px 150px;
+  }
+
+.shopblock {
+  background-color: #1E7349;
+  padding: 36px 104px 50px 100px
+}
+
+.shopbutton {
+  padding-top: 30px;
+  padding-bottom: 55px;
+}
+
+/* This lets the buttons sit on top of the images. */
+.buttondetails {
+position: absolute;
+color: white;
+top: 0;
+left: unset;
+padding: 200px 150px;
+}
+
+/* Products Page */
+
+.liveflowersblock {
+  background-color: #1E7349;
+  padding: 36px 104px 43px 100px;
+}
+
+/* This allows the content to all be on the same line side by side by spliting the information up int o columns.  */
+.filterby {
+  padding: 100px 0px 0px 30px;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  align-items: center;
+}
+
+.filters {
+  cursor: pointer;
+}
+
+.filters:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+
+ /* This allows the information to sit on top of the dropdown box. */
+ .dropdownarrow {
+  position: absolute;
+  margin-left: 198px;
+  margin-top: 6px;
+} 
+
+ /* This allows the information to sit on top of the dropdown box. */
+.dropdownarrow2 {
+  position: absolute;
+  margin-left: 477px;
+  margin-top: 6px;
+} 
+
+ /* This allows the information to sit on top of the dropdown box. */
+.dropdownarrow3 {
+  position: absolute;
+  margin-left: 755px;
+  margin-top: 6px;
+} 
+
+/* This allows my images, buttons, and content to be split into 3 columns and evenly spaced to match my figma high fidelity. */
+.grid-containerproducts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 42px;
+  margin: 36px 24px 81px;
+  row-gap: 64px;
+}
+
+.pink {
+  color: #C0428B;
+}
+
+/* This is for my heart icon. Defining the size of it and calling it out here from my html. */
+#heartcheck-svg {
+  cursor: pointer;
+  overflow: visible;
+  width: 34px;
+  margin: 31px;
+}
+
+/* Until you click on the heart icon, it is not shown. */
+.heartcheckbox {
+  display: none;
+}
+
+/* this fills in my heart icon to be a solid pink fill when it is click on/"checked" */
+input[type=checkbox]:checked + label.heartchecked svg {
+  fill: #C0428B;
+}
+
+/* This splits up my content below each image so that the heart can be displayed on the right side while the other content shows on the left but remains stacked on top of eachother. */
+.productcolumn {
+  display: grid;
+  grid-template-columns: 1fr 0fr;
+  }
+
+  /* .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  } */
+
+.grid-itemproduct:active:focus {
+  outline: none;
+}
+
+.grid-itemproduct:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+select {
+  color: #FFFFFF;
+  width: 225px;
+  background-color: #C0428B;
+  border: none;
+  font-size: 1.563rem;
+  font-weight: 400;
+  margin-right: 30px;
+  padding: 10px 0px 11px 16px;
+  appearance: none;
+}
+
+.regularwhite {
+  color: #FFFFFF;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+}
+
+.icontitles {
+  color:#FFFFFF;
+  margin-top: revert;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 60px;
+  column-gap: 160px;
+}
+
+/* Single Product Page */
+
+/* This split up my 3 tiny images in 3 columns so they could be displayed side by side and evenly spaced */
+.grid-container-sunfinity {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 51px;
+}
+
+/* The position absolute helps the pink backround on my images in the Carousel sit on top of them. 0.8 in the background-color defines how much opacity I will show so you can see my image behind this pink box. */
+.Otherslink {
+    position: absolute;
+    color: white;
+    background-color: rgba(192, 66, 139, 0.8);
+    left: 0;
+    bottom: 8px;
+    right: 0;
+    padding: 15px 30px;
+}
+
+.Otherslink:hover {
+  background-color:rgba(152, 54, 111, 0.8);
+}
+
+.order {
+  margin: 43px 0px 0px 0px;
+}
+
+.sunfinityflowersbox {
+  margin: 0px 124px 0px 42px;
+}
+
+.sunfinityparagraph {
+  margin-top: 32px;
+}
+
+.productlink {
+  text-decoration: none;
+}
+
+.productlink:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+/* This splits the content into 2 columns so they are displayed side by side in the same container. */
+.whole {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 61px;
+}
+
+
+.block {
+  display: grid;
+  margin: 0px 0px 0px 128px;
+}
+
+.selectsize {
+  gap: 10%;
+  margin-top: 15px;
+}
+
+.selectsize2 {
+  color:#FFFFFF;
+  background-color: #1E7349;
+  width: 433px;
+  padding: 23px 18px 23px 18px;
+  margin: 1.25rem 0.125rem;
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+
+/* This hides the radio button */
+input[type=radio] {
+  opacity: 0;
+  }
+
+.cardChecked {
+  position: absolute;
+}
+
+label {
+  height: 100%;
+  display: block;
+}
+
+/* This is what you see when you are on the orignal checked box */
+input[type=radio]:checked + label.selectsize2 {
+  background-color: #1E7349;
+  border: 4px solid #000;
+  accent-color: #000;}
+
+ /* This is what you see when you select the other box and get a black outline around it */
+input[type=radio]:checked + label.selectsize2::after {
+    border: 2px solid #000;
+  }
+
+.selectedbouquet {
+  border: 2px solid #000;
+}  
+
+.othersboughtwith {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 108px;
+}
+
+.othersboughtcontainer {
+  margin-top: 132px;
+  padding-bottom: 166px;
+}
+
+/* .grid-containerothers {
+    display: grid;
+    justify-content: center;
+    width: 90%;
+    padding: 50px 50px 60px 50px;
+    max-width: 960px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+} */
+
+.addtocartbutton {
+  margin-top: 15px;
+}
+
+/* Single Products Page Carousel */
+
+/* This is apart of my javascript. These contain my images inside my carousel. I hid the overflow so you can only see the three images and not have my body container expand beyond the green container box. I did not end up javascripting this out thos to move but hypothetically it would move like the carousel on my homepage.*/
+.cards2 {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  gap: 53px;
+  overflow: hidden;
+}
+
+/* This is also apart of my javascript. It tells the carousel to "slide" or move as you click on the arrows.*/
+.slide2 {
+  display: flex;
+  flex: 0 0 454px;
+}
+
+/* I made the arrows position:absolute so that they sit on top of the images as you scroll through the carousel. */
+/* The  */
+.carouselArrows1 {
+  cursor: pointer;
+  background: none;
+  position: absolute;
+  top: 40%;
+  border: none;
+  z-index: 1;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.carouselArrows1:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+.previous1 {
+  left: 0px
+}
+
+.next1 {
+  right: 0px;
+}
+
+.carousel2 {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  bottom: -26px;
+}
+
+/* Single Products Page: Flower Care */
+
+.potcare {
+  color: #FFF;
+font-family: Outfit;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+margin-left: 110px;
+}
+
+.potcare2 {
+  color: #FFF;
+font-family: Outfit;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+margin-top: 86px;
+margin-left: 110px;
+margin-bottom: 41px;
+}
+
+.flowersteps {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+/* I was able to align my icons and images with correct spacing between, above, and below one another */
+.flowercarecontainer {
+  display: flex;
+  column-gap: 26px;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+/* Same as the above comment with a minor tweak in spacing. */
+.flowercarecontainer1 {
+  display: flex;
+  column-gap: 26px;
+  align-items: center;
+  padding-bottom: 32px;
+  margin-top: -9px;
+}
+
+.flowercareheader {
+  margin-left: 56px;
+}
+
+.flowercare {
+  background-color: #1E7349;
+}
+
+.flowercaretest {
+  padding: 75px 128px 3px 128px;
+}
+
+.grid-item-flower-care2 {
+  color:#FFFFFF;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+  color: #FFF;
+font-family: Outfit;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+margin-top: 29px;
+}
+
+/* this contains all my content within this one container. allowing for even spacing. */
+.grid-container-flower-care {
+  justify-content: space-between;
+    display: grid;
+    padding: 50px 19px 60px 50px;
+    margin: 0 auto;
+}
+
+.grid-item-flower-care1 {
+  margin-top: 42px;
+}
+
+.grid-container5 {
+  position: relative;
+}
+
+/* About Us */
+
+.grid-container-missionblock {
+  position: relative;
+}
+
+.gridcontainer-who-we-are-block {
+  margin-top: 111px;
+  background-color: #1E7349;
+}
+
+/* This allowed me to put the image and content in columns side by side. */
+
+.gridcontainer-meet-the-founder {
+  margin-top: 111px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 52px;
+  background-color: #C0428B;
+}
+
+
+.gridfounder2 {
+  color: #FFFF;
+  margin-top: 73px;
+  margin-left: 88px;
+  margin-right: 73px;
+}
+
+.columns{
+  display: flex;
+}
+
+/* This allows the image to be side by side with the content */
+.griditemflowers1 {
+  display: flex;
+  flex: 1;
+}
+
+/* This allows the content to be side by side with the image */
+.griditemflowers2 {
+  color: #FFFF;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 73px 88px;
+}
+
+.paragraph3 {
+  margin-top: 20px;
+}
+
+.mission2 {
+  padding: 90px 200px;
+  text-align-last: center;
+  border: solid #F5CC72;
+  margin-top: 60px;
+  margin-left: 100px;
+  border-width: thick;
+  position: absolute;
+  top: 20px;
+  color: #FFFF;
+  background-color: rgba(125, 125, 125, 0.4);
+}
+
+.aboutusimages {
+  height: 100%;
+}
+
+/* Footer*/
+
+/* This allows all my content to be in columns and evenly spaced to reflect what my figma looks like */
+.footlists {
+  display: flex;
+  justify-content: center;
+  column-gap: 12rem;
+  margin: auto;
+}
+
+.footer {
+  background-color: #F5CC72;
+  font-size: 16px;
+  width: 100%;
+  display: grid;
+  height: 541px;
+}
+
+.footer3 {
+  background-color: #F5CC72;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 60px;
+  height: 541px;
+  display: grid;
+}
+
+a.footlinks {
+  color:#000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a.footlinks:hover {
+  color:#000;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+a.footlinks:focus {
+  outline-style: solid;
+  outline-color: #0047FF;
+  outline-width: 2px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+
+span {
+  font-weight:600;
+}
+
+.socialmedia {
+  padding-left: 30px;
+  fill: #000;
+}
+
+.socialmedia:hover {
+  fill: #C0428B;
+}
+
+/* This allows the icons to be side by side on the same line */
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  background: black;
+  margin-top: 25px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-top: 25px;
+}
